@@ -2,4 +2,4 @@
 
 give the input as Organisation name and repo name
 
-once iput is taken it will print the output in json and stores to the Personal.json file
+once input is taken it will print the output in json and stores to the results.json file
