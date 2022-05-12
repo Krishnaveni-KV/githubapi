@@ -13,7 +13,7 @@ params = {
 r = requests.get(response , params=params)
 print(r)
 rjson = r.json()
-with open('personal.json', 'w') as json_file:
+with open('results.json', 'w') as json_file:
     json.dump(rjson, json_file)
 pprint(r.json())
 data = json.loads(rjson)
