@@ -23,7 +23,7 @@ rjson = r.json()
 # open the results.json file with argument w if doest exit in lib#
 with open('results.json', 'w') as json_file:
 #dump the data from json file#
-json.dump(rjson, json_file)
+    json.dump(rjson, json_file)
 #pretty print the JSON object of the result#
 pprint(r.json())
 #use Python's json.load() and json.loads() methods to read JSON data from file and String#
