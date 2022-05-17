@@ -20,6 +20,7 @@ r = requests.get(response , params=params)
 print(r)
 #Load the package required to read JSON files#
 rjson = r.json()
+print(type(rjson))
 # open the results.json file with argument w if doest exit in lib#
 with open('results.json', 'w') as json_file:
 #dump the data from json file#
